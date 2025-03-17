@@ -4,11 +4,10 @@ export default function Footer() {
   return (
     <footer className="py-6 border-t border-border/40">
       <div className="container px-4 mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
+        <div className="flex justify-center items-center text-sm text-muted-foreground">
           <p>© {currentYear} Ilyosbek Nishonov. All rights reserved.</p>
         </div>
       </div>
     </footer>
   )
 }
-
