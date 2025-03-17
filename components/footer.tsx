@@ -6,7 +6,6 @@ export default function Footer() {
       <div className="container px-4 mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
           <p>© {currentYear} Ilyosbek Nishonov. All rights reserved.</p>
-          <p className="mt-2 md:mt-0">Designed & Built with ❤️</p>
         </div>
       </div>
     </footer>
